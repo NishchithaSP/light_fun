@@ -6,8 +6,8 @@ const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "I knew you were!";
-  gif.src =
-    "https://media.giphy.com/media/Fu3OjBQiCs3s0ZuLY3/giphy.gif";
+  gif.src = "https://media.giphy.com/media/Fu3OjBQiCs3s0ZuLY3/giphy.gif";
+  
   // Hide the buttons
   yesBtn.style.display = "none";
   noBtn.style.display = "none";
